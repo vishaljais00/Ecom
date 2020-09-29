@@ -6,14 +6,17 @@
   "scripts": {
     "serve:local": " nodemon index.js",
     "test": "mocha tests/*.js --exit",
-    "lint":"eslint ./*.js",
+    "lint": "eslint ./*.js",
     "lint:fix": "eslint --fix ./*.js"
   },
   "keywords": [],
   "author": " Vishal jais",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
   },
   "devDependencies": {
     "chai": "^4.2.0",
